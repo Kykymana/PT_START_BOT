@@ -1,0 +1,12 @@
+[bot]
+bot_server ansible_host=192.168.31.246 ansible_connection=ssh ansible_user=kykymana ansible_password=123456
+
+[db]
+db_server ansible_host=192.168.31.158 ansible_connection=ssh ansible_user=kykymana ansible_password=123456
+
+[db_repl]
+db_repl_server ansible_host=192.168.31.7 ansible_connection=ssh ansible_user=kykymana ansible_password=123456
+
+[remote]
+
+remote_server ansible_host=192.168.31.21 ansible_connection=ssh ansible_user=kykymana ansible_password=123456
